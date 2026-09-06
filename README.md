@@ -1,6 +1,8 @@
 # Resume-React
 
-一个用 React + TypeScript + TailwindCSS 构建的简历模版，支持 A4 打印，数据与页面解耦，方便自定义。
+一个用 React + TypeScript + TailwindCSS 构建的简历模版，支持打印(默认A4)，数据与页面解耦，方便自定义。
+
+<img width="1662" height="1702" alt="Résumé-React" src="https://github.com/user-attachments/assets/9e66fd79-d2ac-4e92-9e20-963eca5a017c" />
 
 ## 快速开始
 
