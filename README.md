@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Resume-React
 
-# Run and deploy your AI Studio app
+一个用 React + TypeScript + TailwindCSS 构建的简历模版，支持 A4 打印，数据与页面解耦，方便自定义。
 
-This contains everything you need to run your app locally.
+## 快速开始
 
-View your app in AI Studio: https://ai.studio/apps/fa4db1aa-7a27-4663-9198-8dcc51fe98e0
+```bash
+npm install
+npm run dev
+```
 
-## Run Locally
+## 自定义简历
 
-**Prerequisites:**  Node.js
+编辑 [src/data/resumeData.ts](src/data/resumeData.ts)，按 TypeScript 接口填入你的真实信息即可。所有数组区块支持任意条数，增删项目无需改动页面代码。
 
+## 构建 & 打印
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm run build
+npm run preview
+```
+
+在浏览器中打开预览页面，Ctrl/Cmd + P 即可打印为 A4 PDF。
