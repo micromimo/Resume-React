@@ -49,8 +49,6 @@ export default function App() {
             height: 297mm !important; 
             margin: 0 !important;
             padding: 8mm 12mm !important;
-            box-shadow: none !important;
-            border-radius: 0 !important;
           }
         }
       `}} />
