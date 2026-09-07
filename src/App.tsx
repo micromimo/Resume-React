@@ -21,7 +21,7 @@ const SectionHeader = ({ icon: Icon, title }: { icon: any, title: string }) => (
 
 const GlassContainer = ({ children, className }: { children: ReactNode, className?: string }) => (
   <div className={cn(
-    "bg-white/40 backdrop-blur-md border border-white/60 rounded-xl py-3 px-4 shadow-[0_0_20px_-4px_rgba(167,139,250,0.25),0_14px_36px_-10px_rgba(0,0,0,0.28),inset_0_-6px_14px_-4px_rgba(0,0,0,0.22)]",
+    "bg-white/40 backdrop-blur-md border border-brand-light/40 rounded-xl py-3 px-4 shadow-[0_0_32px_-4px_rgba(167,139,250,0.12),0_14px_36px_-10px_rgba(0,0,0,0.22),inset_0_-6px_14px_-4px_rgba(0,0,0,0.18)]",
     className
   )}>
     {children}
@@ -44,19 +44,19 @@ export default function App() {
         @media print {
           @page { size: A4; margin: 0; }
           body { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
-          * { box-shadow: none !important; }
           .resume-container { 
             width: 210mm !important; 
             height: 297mm !important; 
             margin: 0 !important;
             padding: 8mm 12mm !important;
+            box-shadow: none !important;
             border-radius: 0 !important;
           }
         }
       `}} />
       
       {/* Main Resume Page */}
-      <div className="resume-container relative bg-white shadow-xl flex flex-col px-[12mm] py-[8mm] overflow-hidden border-t-[6px] border-brand shrink-0">
+      <div className="resume-container relative bg-white shadow-[0_0_60px_-8px_rgba(167,139,250,0.10),0_20px_60px_-12px_rgba(0,0,0,0.25)] flex flex-col px-[12mm] py-[8mm] overflow-hidden border-t-[6px] border-brand shrink-0">
         
         {/* Header Section: [Photo][Name] Left, [Info] Right */}
         <header className="flex justify-between items-end mb-1.5 pb-1.5 border-b border-slate-100 shrink-0">
