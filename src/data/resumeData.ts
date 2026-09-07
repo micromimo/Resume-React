@@ -107,9 +107,9 @@ export const resumeData: ResumeData = {
     {
       name: "示例项目一 · 全栈 Web 应用",
       tag: "主导 · 课程设计",
-      techStack: "Vue3, Spring Boot, MySQL, Redis",
+      techStack: "React, Rust, SQLite, Redis",
       description:
-        "一个面向小型团队的协作管理平台，支持任务分配、实时通知和数据统计。前端基于 Vue3 + Pinia 构建响应式界面，后端使用 Spring Boot 提供 RESTful API，引入 Redis 缓存高频查询。部署在 Linux 服务器上，通过 Nginx 反向代理。",
+        "一个面向小型团队的协作管理平台，支持任务分配、实时通知和数据统计。前端基于 React + Zustand 构建响应式界面，后端使用 Rust 提供 RESTful API，引入 Redis 缓存高频查询。部署在 Linux 服务器上，通过 Nginx 反向代理。",
     },
     {
       name: "示例项目二 · 数据可视化大屏",
