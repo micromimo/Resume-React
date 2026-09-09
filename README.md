@@ -2,7 +2,7 @@
 
 一个用 React + TypeScript + TailwindCSS 构建的简历模版，支持打印(默认A4)，数据与页面解耦，方便自定义。
 
-<img width="1642" height="1702" alt="Résumé-React-img" src="https://github.com/user-attachments/assets/fca773f2-b97a-4059-838f-54045ba67942" />
+<img width="1640" height="1710" alt="resume-react-img" src="https://github.com/user-attachments/assets/f6d61c26-aa9b-4d45-a6ac-8ff9f0580405" />
 
 
 ## 快速开始
