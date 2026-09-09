@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { GraduationCap, Briefcase, Trophy, Code, Sparkles, User } from 'lucide-react';
+import { GraduationCap, Briefcase, Command, Code, Sparkles, User } from 'lucide-react';
 import { cn } from './lib/utils';
 import { resumeData } from './data/resumeData';
 
@@ -164,7 +164,7 @@ export default function App() {
           {/* Awards */}
           {awards.length > 0 && (
             <GlassContainer className="py-2 px-4 shadow-sm">
-              <SectionHeader icon={Trophy} title="奖项荣誉" />
+              <SectionHeader icon={Sparkles} title="奖项荣誉" />
               <div className="space-y-1 px-1">
                 {awards.map((award, idx) => (
                   <div key={idx} className="flex items-start gap-2.5">
@@ -179,7 +179,7 @@ export default function App() {
           {/* Skills, Hobbies & Self-evaluation */}
           {skills.length > 0 && (
             <GlassContainer className="py-2 px-4 shadow-sm">
-              <SectionHeader icon={Sparkles} title="特长、爱好与自我评价" />
+              <SectionHeader icon={Command} title="特长、爱好与自我评价" />
               <div className="space-y-1 px-1">
                 {skills.map((item, idx) => (
                   <div key={idx} className="flex items-start">
